@@ -1,6 +1,20 @@
 html{
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(36, 36, 36);
   color:aliceblue
+}
+.accordion{
+  --bs-accordion-bg: rgb(196, 196, 196)!important;
+  --bs-accordion-border-color: aliceblue!important;
+  --bs-accordion-border-width: 1px!important;
+  --bs-accordion-border-radius: 0.25rem!important;
+  --bs-accordion-button-color: aliceblue!important;
+
+}
+.accordion-button{
+  color:black;
+}
+.header{
+  text-align: center;
 }
 body {
   font-family: Arial, sans-serif;

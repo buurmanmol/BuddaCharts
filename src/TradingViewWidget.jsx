@@ -132,7 +132,6 @@ export default function TradingViewWidget() {
     { value: "ETCUSDT", label: "Ethereum Classic (ETC)" },
     { value: "FILUSDT", label: "Filecoin (FIL)" },
     { value: "ICPUSDT", label: "Internet Computer (ICP)" },
-    { value: "MIOTAUSDT", label: "IOTA (MIOTA)" },
     { value: "LTCUSDT", label: "Litecoin (LTC)" },
     { value: "LUNAUSDT", label: "Luna (LUNA)" },
     { value: "XMRUSDT", label: "Monero (XMR)" },
@@ -200,7 +199,7 @@ export default function TradingViewWidget() {
             ))}
           </div>
         </div>
-        <div className="col-xl-9"Style="width:80%">
+        <div className="col-xl-9"Style="width:auto%">
             {cryptos.map((crypto, index) => (
               <div key={crypto} Style="width:50%; display:inline-flex; flex-wrap:wrap;">
                 <CryptoChart symbol={crypto} indicators={indicators} />
