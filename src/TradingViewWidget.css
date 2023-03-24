@@ -66,6 +66,7 @@ body {
 
 .explanation {
   margin-top: 20px;
+  padding:20px;
 }
 
 .explanation__section {
@@ -74,8 +75,13 @@ body {
   display:inline-flex;
   flex-direction:column;
   padding:10px;
+
 }
 
 .explanation__section h2 {
   margin-bottom: 10px;
+}
+
+.referal{
+  padding:20px;
 }
