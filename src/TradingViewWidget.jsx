@@ -153,7 +153,7 @@ export default function TradingViewWidget() {
     
     
     
-    { value: "STD;BollingerBands", label: "Bollinger Bands" },
+    { value: "STD;Bollinger_Bands", label: "Bollinger Bands" },
     { value: "STD;MACD", label: "MACD" },
     { value: "STD;Stochastic", label: "Stochastic" },
     { value: "STD;RSI", label: "RSI" },
